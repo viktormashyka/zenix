@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* zenixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* zenixTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-zenix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-zenix.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-zenix-zenixTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-zenix-zenixTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A221DE25FB9FB905FD7B64C8 /* libPods-zenixCommonPods-zenixDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 485E91600E1FF8F47AFB4621 /* libPods-zenixCommonPods-zenixDev.a */; };
+		A510135474F37E94BE6817AD /* libPods-zenixCommonPods-zenix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C5AF988C244D1EC1868181 /* libPods-zenixCommonPods-zenix.a */; };
+		B41EE177CD013FC87DD1BE42 /* libPods-zenixCommonPods-zenixTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F6613FE9ECADDEC79540D6 /* libPods-zenixCommonPods-zenixTests.a */; };
+		D85823E3E4E7A21BD3AA6F4C /* libPods-zenixCommonPods-zenixStg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48949353DEC56F0D1D244A /* libPods-zenixCommonPods-zenixStg.a */; };
+		E3F506592AA9DC7000E7DDA7 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		E3F5065A2AA9DC7000E7DDA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		E3F5065E2AA9DC7000E7DDA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		E3F5065F2AA9DC7000E7DDA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		E3F5066C2AA9DC8300E7DDA7 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		E3F5066D2AA9DC8300E7DDA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		E3F506712AA9DC8300E7DDA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		E3F506722AA9DC8300E7DDA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +40,34 @@
 		00E356EE1AD99517003FC87E /* zenixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zenixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* zenixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zenixTests.m; sourceTree = "<group>"; };
+		0ED7C829DFC9B1AFC87FB6F3 /* Pods-zenixCommonPods-zenixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenixCommonPods-zenixTests.debug.xcconfig"; path = "Target Support Files/Pods-zenixCommonPods-zenixTests/Pods-zenixCommonPods-zenixTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* zenix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zenix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = zenix/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = zenix/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = zenix/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = zenix/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = zenix/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-zenix-zenixTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zenix-zenixTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C588C58B3FFF5479323DF9 /* Pods-zenixCommonPods-zenixStg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenixCommonPods-zenixStg.debug.xcconfig"; path = "Target Support Files/Pods-zenixCommonPods-zenixStg/Pods-zenixCommonPods-zenixStg.debug.xcconfig"; sourceTree = "<group>"; };
+		29A549AD4A69DC0E5498D451 /* Pods-zenixCommonPods-zenixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenixCommonPods-zenixTests.release.xcconfig"; path = "Target Support Files/Pods-zenixCommonPods-zenixTests/Pods-zenixCommonPods-zenixTests.release.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-zenix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenix.debug.xcconfig"; path = "Target Support Files/Pods-zenix/Pods-zenix.debug.xcconfig"; sourceTree = "<group>"; };
+		4206B7C159054AFE64728E02 /* Pods-zenixCommonPods-zenixDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenixCommonPods-zenixDev.release.xcconfig"; path = "Target Support Files/Pods-zenixCommonPods-zenixDev/Pods-zenixCommonPods-zenixDev.release.xcconfig"; sourceTree = "<group>"; };
+		485E91600E1FF8F47AFB4621 /* libPods-zenixCommonPods-zenixDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zenixCommonPods-zenixDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5709B34CF0A7D63546082F79 /* Pods-zenix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenix.release.xcconfig"; path = "Target Support Files/Pods-zenix/Pods-zenix.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-zenix-zenixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenix-zenixTests.debug.xcconfig"; path = "Target Support Files/Pods-zenix-zenixTests/Pods-zenix-zenixTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-zenix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zenix.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = zenix/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88E910C7910E519DA1FB87B0 /* Pods-zenixCommonPods-zenixStg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenixCommonPods-zenixStg.release.xcconfig"; path = "Target Support Files/Pods-zenixCommonPods-zenixStg/Pods-zenixCommonPods-zenixStg.release.xcconfig"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-zenix-zenixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenix-zenixTests.release.xcconfig"; path = "Target Support Files/Pods-zenix-zenixTests/Pods-zenix-zenixTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A32CF1479AEA816915C8C77 /* Pods-zenixCommonPods-zenix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenixCommonPods-zenix.release.xcconfig"; path = "Target Support Files/Pods-zenixCommonPods-zenix/Pods-zenixCommonPods-zenix.release.xcconfig"; sourceTree = "<group>"; };
+		A74530843AB2CF1F6679F119 /* Pods-zenixCommonPods-zenixDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenixCommonPods-zenixDev.debug.xcconfig"; path = "Target Support Files/Pods-zenixCommonPods-zenixDev/Pods-zenixCommonPods-zenixDev.debug.xcconfig"; sourceTree = "<group>"; };
+		AC48949353DEC56F0D1D244A /* libPods-zenixCommonPods-zenixStg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zenixCommonPods-zenixStg.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C5AF988C244D1EC1868181 /* libPods-zenixCommonPods-zenix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zenixCommonPods-zenix.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F506662AA9DC7000E7DDA7 /* zenixDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zenixDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F506672AA9DC7000E7DDA7 /* zenix dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zenix dev-Info.plist"; path = "/Users/viktormashyka/Documents/GitHub/zenix/ios/zenix dev-Info.plist"; sourceTree = "<absolute>"; };
+		E3F506792AA9DC8300E7DDA7 /* zenixStg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zenixStg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F5067A2AA9DC8300E7DDA7 /* zenix stg-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zenix stg-Info.plist"; path = "/Users/viktormashyka/Documents/GitHub/zenix/ios/zenix stg-Info.plist"; sourceTree = "<absolute>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F1C925C721468C6BA3E578CF /* Pods-zenixCommonPods-zenix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenixCommonPods-zenix.debug.xcconfig"; path = "Target Support Files/Pods-zenixCommonPods-zenix/Pods-zenixCommonPods-zenix.debug.xcconfig"; sourceTree = "<group>"; };
+		F3F6613FE9ECADDEC79540D6 /* libPods-zenixCommonPods-zenixTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zenixCommonPods-zenixTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-zenix-zenixTests.a in Frameworks */,
+				B41EE177CD013FC87DD1BE42 /* libPods-zenixCommonPods-zenixTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +83,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-zenix.a in Frameworks */,
+				A510135474F37E94BE6817AD /* libPods-zenixCommonPods-zenix.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F5065B2AA9DC7000E7DDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A221DE25FB9FB905FD7B64C8 /* libPods-zenixCommonPods-zenixDev.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F5066E2AA9DC8300E7DDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85823E3E4E7A21BD3AA6F4C /* libPods-zenixCommonPods-zenixStg.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +140,10 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-zenix.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-zenix-zenixTests.a */,
+				D1C5AF988C244D1EC1868181 /* libPods-zenixCommonPods-zenix.a */,
+				485E91600E1FF8F47AFB4621 /* libPods-zenixCommonPods-zenixDev.a */,
+				AC48949353DEC56F0D1D244A /* libPods-zenixCommonPods-zenixStg.a */,
+				F3F6613FE9ECADDEC79540D6 /* libPods-zenixCommonPods-zenixTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,6 +164,8 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				E3F506672AA9DC7000E7DDA7 /* zenix dev-Info.plist */,
+				E3F5067A2AA9DC8300E7DDA7 /* zenix stg-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -133,6 +177,8 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* zenix.app */,
 				00E356EE1AD99517003FC87E /* zenixTests.xctest */,
+				E3F506662AA9DC7000E7DDA7 /* zenixDev.app */,
+				E3F506792AA9DC8300E7DDA7 /* zenixStg.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +190,14 @@
 				5709B34CF0A7D63546082F79 /* Pods-zenix.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-zenix-zenixTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-zenix-zenixTests.release.xcconfig */,
+				F1C925C721468C6BA3E578CF /* Pods-zenixCommonPods-zenix.debug.xcconfig */,
+				9A32CF1479AEA816915C8C77 /* Pods-zenixCommonPods-zenix.release.xcconfig */,
+				A74530843AB2CF1F6679F119 /* Pods-zenixCommonPods-zenixDev.debug.xcconfig */,
+				4206B7C159054AFE64728E02 /* Pods-zenixCommonPods-zenixDev.release.xcconfig */,
+				15C588C58B3FFF5479323DF9 /* Pods-zenixCommonPods-zenixStg.debug.xcconfig */,
+				88E910C7910E519DA1FB87B0 /* Pods-zenixCommonPods-zenixStg.release.xcconfig */,
+				0ED7C829DFC9B1AFC87FB6F3 /* Pods-zenixCommonPods-zenixTests.debug.xcconfig */,
+				29A549AD4A69DC0E5498D451 /* Pods-zenixCommonPods-zenixTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -194,6 +248,50 @@
 			productReference = 13B07F961A680F5B00A75B9A /* zenix.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E3F506552AA9DC7000E7DDA7 /* zenixDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3F506632AA9DC7000E7DDA7 /* Build configuration list for PBXNativeTarget "zenixDev" */;
+			buildPhases = (
+				E3F506562AA9DC7000E7DDA7 /* [CP] Check Pods Manifest.lock */,
+				E3F506572AA9DC7000E7DDA7 /* Start Packager */,
+				E3F506582AA9DC7000E7DDA7 /* Sources */,
+				E3F5065B2AA9DC7000E7DDA7 /* Frameworks */,
+				E3F5065D2AA9DC7000E7DDA7 /* Resources */,
+				E3F506602AA9DC7000E7DDA7 /* Bundle React Native code and images */,
+				E3F506612AA9DC7000E7DDA7 /* [CP] Embed Pods Frameworks */,
+				E3F506622AA9DC7000E7DDA7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zenixDev;
+			productName = zenix;
+			productReference = E3F506662AA9DC7000E7DDA7 /* zenixDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3F506682AA9DC8300E7DDA7 /* zenixStg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3F506762AA9DC8300E7DDA7 /* Build configuration list for PBXNativeTarget "zenixStg" */;
+			buildPhases = (
+				E3F506692AA9DC8300E7DDA7 /* [CP] Check Pods Manifest.lock */,
+				E3F5066A2AA9DC8300E7DDA7 /* Start Packager */,
+				E3F5066B2AA9DC8300E7DDA7 /* Sources */,
+				E3F5066E2AA9DC8300E7DDA7 /* Frameworks */,
+				E3F506702AA9DC8300E7DDA7 /* Resources */,
+				E3F506732AA9DC8300E7DDA7 /* Bundle React Native code and images */,
+				E3F506742AA9DC8300E7DDA7 /* [CP] Embed Pods Frameworks */,
+				E3F506752AA9DC8300E7DDA7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zenixStg;
+			productName = zenix;
+			productReference = E3F506792AA9DC8300E7DDA7 /* zenixStg.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -226,6 +324,8 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* zenix */,
 				00E356ED1AD99517003FC87E /* zenixTests */,
+				E3F506552AA9DC7000E7DDA7 /* zenixDev */,
+				E3F506682AA9DC8300E7DDA7 /* zenixStg */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +344,24 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F5065D2AA9DC7000E7DDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F5065E2AA9DC7000E7DDA7 /* LaunchScreen.storyboard in Resources */,
+				E3F5065F2AA9DC7000E7DDA7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F506702AA9DC8300E7DDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F506712AA9DC8300E7DDA7 /* LaunchScreen.storyboard in Resources */,
+				E3F506722AA9DC8300E7DDA7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,15 +390,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zenix/Pods-zenix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenix/Pods-zenixCommonPods-zenix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zenix/Pods-zenix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenix/Pods-zenixCommonPods-zenix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenix/Pods-zenix-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenix/Pods-zenixCommonPods-zenix-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -298,7 +416,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-zenix-zenixTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-zenixCommonPods-zenixTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -320,7 +438,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-zenix-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-zenixCommonPods-zenix-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -333,15 +451,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zenix-zenixTests/Pods-zenix-zenixTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenixTests/Pods-zenixCommonPods-zenixTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zenix-zenixTests/Pods-zenix-zenixTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenixTests/Pods-zenixCommonPods-zenixTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenix-zenixTests/Pods-zenix-zenixTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenixTests/Pods-zenixCommonPods-zenixTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -350,15 +468,197 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zenix/Pods-zenix-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenix/Pods-zenixCommonPods-zenix-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zenix/Pods-zenix-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenix/Pods-zenixCommonPods-zenix-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenix/Pods-zenix-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenix/Pods-zenixCommonPods-zenix-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3F506562AA9DC7000E7DDA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zenixCommonPods-zenixDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3F506572AA9DC7000E7DDA7 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3F506602AA9DC7000E7DDA7 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		E3F506612AA9DC7000E7DDA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenixDev/Pods-zenixCommonPods-zenixDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenixDev/Pods-zenixCommonPods-zenixDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenixDev/Pods-zenixCommonPods-zenixDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3F506622AA9DC7000E7DDA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenixDev/Pods-zenixCommonPods-zenixDev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenixDev/Pods-zenixCommonPods-zenixDev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenixDev/Pods-zenixCommonPods-zenixDev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3F506692AA9DC8300E7DDA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zenixCommonPods-zenixStg-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3F5066A2AA9DC8300E7DDA7 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3F506732AA9DC8300E7DDA7 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		E3F506742AA9DC8300E7DDA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenixStg/Pods-zenixCommonPods-zenixStg-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenixStg/Pods-zenixCommonPods-zenixStg-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenixStg/Pods-zenixCommonPods-zenixStg-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3F506752AA9DC8300E7DDA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenixStg/Pods-zenixCommonPods-zenixStg-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenixStg/Pods-zenixCommonPods-zenixStg-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenixStg/Pods-zenixCommonPods-zenixStg-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -367,15 +667,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zenix-zenixTests/Pods-zenix-zenixTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenixTests/Pods-zenixCommonPods-zenixTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zenix-zenixTests/Pods-zenix-zenixTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenixTests/Pods-zenixCommonPods-zenixTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenix-zenixTests/Pods-zenix-zenixTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenixCommonPods-zenixTests/Pods-zenixCommonPods-zenixTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -417,6 +717,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3F506582AA9DC7000E7DDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F506592AA9DC7000E7DDA7 /* AppDelegate.mm in Sources */,
+				E3F5065A2AA9DC7000E7DDA7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F5066B2AA9DC8300E7DDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F5066C2AA9DC8300E7DDA7 /* AppDelegate.mm in Sources */,
+				E3F5066D2AA9DC8300E7DDA7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -430,7 +748,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-zenix-zenixTests.debug.xcconfig */;
+			baseConfigurationReference = 0ED7C829DFC9B1AFC87FB6F3 /* Pods-zenixCommonPods-zenixTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -457,7 +775,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-zenix-zenixTests.release.xcconfig */;
+			baseConfigurationReference = 29A549AD4A69DC0E5498D451 /* Pods-zenixCommonPods-zenixTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -481,7 +799,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-zenix.debug.xcconfig */;
+			baseConfigurationReference = F1C925C721468C6BA3E578CF /* Pods-zenixCommonPods-zenix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -508,7 +826,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-zenix.release.xcconfig */;
+			baseConfigurationReference = 9A32CF1479AEA816915C8C77 /* Pods-zenixCommonPods-zenix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -670,6 +988,114 @@
 			};
 			name = Release;
 		};
+		E3F506642AA9DC7000E7DDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A74530843AB2CF1F6679F119 /* Pods-zenixCommonPods-zenixDev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "zenix dev-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "zenix dev";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		E3F506652AA9DC7000E7DDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4206B7C159054AFE64728E02 /* Pods-zenixCommonPods-zenixDev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "zenix dev-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "zenix dev";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		E3F506772AA9DC8300E7DDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C588C58B3FFF5479323DF9 /* Pods-zenixCommonPods-zenixStg.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "zenix stg-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "zenix stg";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		E3F506782AA9DC8300E7DDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E910C7910E519DA1FB87B0 /* Pods-zenixCommonPods-zenixStg.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "zenix stg-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "zenix stg";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -696,6 +1122,24 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3F506632AA9DC7000E7DDA7 /* Build configuration list for PBXNativeTarget "zenixDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3F506642AA9DC7000E7DDA7 /* Debug */,
+				E3F506652AA9DC7000E7DDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3F506762AA9DC8300E7DDA7 /* Build configuration list for PBXNativeTarget "zenixStg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3F506772AA9DC8300E7DDA7 /* Debug */,
+				E3F506782AA9DC8300E7DDA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

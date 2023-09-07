@@ -25,7 +25,18 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'zenix' do
+# target 'zenix' do
+abstract_target 'zenixCommonPods' do
+
+target 'zenixDev' do
+ end
+
+ target 'zenixStg' do
+ end
+
+ target 'zenix' do
+ end
+
   config = use_native_modules!
 
   # Flags change depending on the env values.
